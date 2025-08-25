@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wireframe: Main View</title>
+    <style>
+        body { font-family: monospace; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .container { display: flex; }
+        .main-content { width: 70%; padding: 20px; }
+        .notes { width: 30%; padding: 20px; background-color: #f0f0f0; border-left: 1px solid #ccc; min-height: 100vh; }
+        .header { padding: 20px; border-bottom: 2px solid #333; background-color: #e0e0e0; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px; }
+        .card { border: 2px solid #333; padding: 20px; text-align: center; }
+        .card-title { font-weight: bold; font-size: 18px; margin-bottom: 10px; }
+        .card-summary { font-size: 14px; }
+        h3 { border-bottom: 1px solid #999; padding-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header">
+                <h1>God, Consciousness, and AI</h1>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-title">[Section Title 1]</div>
+                    <div class="card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">[Section Title 2]</div>
+                    <div class="card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">[Section Title 3]</div>
+                    <div class="card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">[Section Title 4]</div>
+                    <div class="card-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+            </div>
+        </div>
+        <div class="notes">
+            <h3>NOTES</h3>
+            <p><strong>Page:</strong> Main View / Home</p>
+            <p><strong>Purpose:</strong> To provide a high-level overview of the available topics and serve as the primary navigation hub.</p>
+            <ul>
+                <li>Header contains the project title.</li>
+                <li>Content is a grid of clickable cards.</li>
+                <li>Each card represents a main section of the essay.</li>
+                <li>Clicking a card will navigate the user to the 'Topic Detail View'.</li>
+                <li>Layout should be responsive, stacking to a single column on mobile.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
