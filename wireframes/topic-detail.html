@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wireframe: Topic Detail</title>
+    <style>
+        body { font-family: monospace; color: #333; margin: 0; padding: 0; background-color: #fff; }
+        .container { display: flex; }
+        .main-content { width: 70%; padding: 20px; }
+        .notes { width: 30%; padding: 20px; background-color: #f0f0f0; border-left: 1px solid #ccc; min-height: 100vh; }
+        .header { padding: 10px 20px; border-bottom: 2px solid #333; background-color: #e0e0e0; }
+        .back-button { display: inline-block; padding: 8px 12px; border: 2px solid #333; text-decoration: none; color: #333; }
+        .content-area { margin-top: 20px; }
+        .content-area h2 { font-size: 22px; }
+        .content-area h3 { font-size: 18px; margin-top: 30px; }
+        .content-area p { line-height: 1.6; }
+        h3 { border-bottom: 1px solid #999; padding-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header">
+                <a href="#" class="back-button">&lt; BACK</a>
+            </div>
+            <div class="content-area">
+                <h2>[Selected Section Title]</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3>[Sub-heading 1]</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <h3>[Sub-heading 2]</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="notes">
+            <h3>NOTES</h3>
+            <p><strong>Page:</strong> Topic Detail View</p>
+            <p><strong>Purpose:</strong> To display the full content of a selected section.</p>
+            <ul>
+                <li>Header contains a 'BACK' button to return to the Main View.</li>
+                <li>The main title of the section is prominently displayed.</li>
+                <li>The body contains the full text, broken into logical sub-headings and paragraphs.</li>
+                <li>Content is populated dynamically based on which card was clicked in the Main View.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
